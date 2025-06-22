@@ -1,0 +1,26 @@
+单模型测试报告:
+
+模型信息:
+模型类型: ResNet18
+模型路径: ./saved_models/ResNet18-img-YN-(128,128).pth
+标签映射: {'N': 0, 'Y': 1}
+输入尺寸: (128, 128)
+
+测试样本总数: 62
+成功预测数: 62
+预测失败数: 0
+
+分类报告:
+              precision    recall  f1-score   support
+
+           N       0.83      1.00      0.91        15
+           Y       1.00      0.94      0.97        47
+
+    accuracy                           0.95        62
+   macro avg       0.92      0.97      0.94        62
+weighted avg       0.96      0.95      0.95        62
+
+Sensitivity: 0.9362
+Specificity: 1.0000
+AUC: 0.9957
+总体准确率: 0.9516

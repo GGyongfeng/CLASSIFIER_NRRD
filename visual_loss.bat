@@ -1,0 +1,1 @@
+tensorboard --logdir C:\Users\gyf15\Desktop\project\Classifier_JPG\logs

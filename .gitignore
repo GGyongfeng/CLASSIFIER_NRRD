@@ -1,0 +1,28 @@
+# 忽略数据文件夹
+data/
+dataset/
+
+# 忽略 Python 缓存文件夹
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# 其他常见的 Python 相关忽略
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE 相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统相关
+.DS_Store
+Thumbs.db 
